@@ -1,0 +1,52 @@
+.container{
+   width: 100%; 
+   height: 90vh;
+   display: flex;
+   background: black;
+}
+
+.info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 6vw;
+    justify-content: center;
+}
+.heading{
+    font-size: 45px;
+    padding-bottom: 3vh;
+}
+.content{
+    font-size: 22px;
+}
+.imgWrapper{
+    width: 42%;
+}
+.profile{
+    width: 100%;
+    height: 70vh;
+    z-index: -1;
+}
+
+@media all and (max-width:590px){
+    .container{
+        display: block;
+    }
+    .info{
+        width:100%;
+        padding-top: 2vh;
+    }
+    .heading{
+        font-size: 35px;
+    }
+    .content{
+        font-size: 18px;
+    }
+    .imgWrapper{
+        width: 100%;
+    }
+    .profile{
+        width: 100%;
+    }
+}

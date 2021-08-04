@@ -1,0 +1,23 @@
+export const contactIno = [
+    {
+        rel:"noreferrer",
+        target:"_blank",
+        href:"https://www.linkedin.com/in/smith-rakesh-aa664220b/",
+        src:"./logos/linkedin.png",
+        title:"linkedin"
+    },
+    {
+        rel:"noreferrer",
+        target:"_blank",
+        href:"https://github.com/SmithRakesh",
+        src:"./logos/git.png",
+        title:"github"
+    },
+    {
+        rel:"noreferrer",
+        target:"_blank",
+        href:"https://mailto:smithjacksj94@gmail.com",
+        src:"./logos/mail.png",
+        title:"email"
+    },
+]

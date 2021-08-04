@@ -1,0 +1,42 @@
+.navbar{
+    height: 10vh;
+    padding:1vw 3vw;
+    display: flex;
+    align-items: center;
+    background-color: #070707;
+    border: 1px solid black;
+}
+
+.links{
+    text-decoration: none;
+    color: white;
+    margin: 0 1vw;
+    position: relative;
+    transition-duration: 300ms;
+}
+
+.links::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background-color: goldenrod;
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    border-radius: 10px;
+    transition: all 500ms ease;
+}
+
+.links:hover{
+    transform: scale(1.2);
+}
+.links:active::after{
+    width: 100%;
+    left: 0;
+}
+.links:hover::after{
+    width: 100%;
+    left: 0;
+    bottom: 2%;
+}
+
